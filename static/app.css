@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Yanone+Kaffeesatz&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Fuente roboto a todo */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* enlaces */
+a {
+  color: var(--color-texto);
+}
+
+a:hover {
+  color: var(--color-primario);
+}
+
+/* form inputs */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  select:focus,
+  textarea:focus,
+  input:focus {
+    font-size: var(--font-size);
+  }
+}
+
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
